@@ -1,5 +1,5 @@
 <template>
-  <div
+  <aside
     class="flex flex-col bg-primary-background bg-opacity-40 w-[230px] px-4 bg-[#afa6dd]"
   >
     <img
@@ -17,7 +17,7 @@
           >All-In-One</span
         ></a
       ><a
-        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-secondary bg-opacity-20 text-white opacity-90 hover:opacity-100"
+        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-gray-100 bg-opacity-20 text-white opacity-90 hover:opacity-100"
         title="ChatGPT"
         href="#/chat/chatgpt"
         ><img src="../assets/chatgpt-logo.svg" class="w-5 h-5" /><span
@@ -25,7 +25,7 @@
           >ChatGPT</span
         ></a
       ><a
-        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-secondary bg-opacity-20 text-white opacity-90 hover:opacity-100"
+        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-gray-100 bg-opacity-20 text-white opacity-90 hover:opacity-100"
         title="Bing"
         href="#/chat/bing"
         ><img src="../assets/bing-logo.svg" class="w-5 h-5" /><span
@@ -33,7 +33,7 @@
           >Bing</span
         ></a
       ><a
-        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-secondary bg-opacity-20 text-white opacity-90 hover:opacity-100"
+        class="rounded-[10px] w-full h-[45px] pl-3 flex flex-row gap-3 items-center bg-gray-100 bg-opacity-20 text-white opacity-90 hover:opacity-100"
         title="Bard"
         href="#/chat/bard"
         ><img src="../assets/bard-logo.svg" class="w-5 h-5" /><span
@@ -97,5 +97,5 @@
         display: none;
       "
     ></div>
-  </div>
+  </aside>
 </template>
