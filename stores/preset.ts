@@ -1,9 +1,17 @@
-export const useConversation = defineStore("presetsStore", {
+export const usePresets = defineStore("presetsStore", {
     state: () => ({
-        stream: true,
-        jailbreakMode: true,
-        toneStyle: 'creative', // creative||balanced||precise
-        cookies: '',
+        selectedChat: [1, 2],
+        chatObjects: {
+            1: {
+                name: 'chatgpt'
+            },
+            2: {
+                name: 'bing'
+            },
+            3: {
+                name: 'bard'
+            }
+        }
     }),
 
     actions: {
@@ -22,5 +30,5 @@ export const useConversation = defineStore("presetsStore", {
 });
 
 if (import.meta.hot) {
-    import.meta.hot.accept(acceptHMRUpdate(useConversation, import.meta.hot));
+    import.meta.hot.accept(acceptHMRUpdate(usePresets, import.meta.hot));
 }

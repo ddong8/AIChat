@@ -43,28 +43,5 @@
         <div class="flex flex-col gap-3 h-full mx-5"></div>
       </div>
     </div>
-    <div class="mt-3 flex flex-col mx-5 mb-[10px]">
-      <div class="flex flex-row items-center gap-[5px] mb-0">
-        <span class="font-medium text-xs text-light-text">Send to ChatGPT</span>
-        <hr class="grow border-primary-border" />
-      </div>
-      <form class="flex flex-row items-center gap-3">
-        <textarea
-          class="resize-none overflow-x-hidden overflow-y-auto w-full outline-none text-sm text-primary-text bg-transparent scrollbar-thin"
-          autocomplete="off"
-          name="input"
-          placeholder=""
-          style="height: 20px !important"
-        ></textarea
-        ><button
-          type="button"
-          class="rounded-[30px] text-sm px-4 py-1 text-primary-text bg-secondary invisible"
-        >
-          <div class="flex flex-row items-center gap-1 min-w-max">
-            <span>-</span>
-          </div>
-        </button>
-      </form>
-    </div>
   </div>
 </template>
